@@ -87,20 +87,20 @@
               <div class="col-lg-12 pr-lg-0">
                 <ul class="nav navbar-nav ml-auto justify-content-end">
                   <li class="nav-item active">
-                    <a class="nav-link" href="http://127.0.0.1:5500/#">Home</a>
+                    <a class="nav-link" href="{{ url('/') }}">Home</a>
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="{{ url('/about') }}">About</a>
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link" href="services.html">Services</a>
+                    <a class="nav-link" href="{{ url('/services')}}">Services</a>
                   </li>
                   <li class="nav-item submenu dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                       aria-expanded="false">Pages</a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a class="nav-link" href="elements.html">Elements</a>
+                        <a class="nav-link" href="{{ url('/elements')}}">Elements</a>
                       </li>
                     </ul>
                   </li>
@@ -109,7 +109,7 @@
                       aria-expanded="false">Blog</a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
+                        <a class="nav-link" href="{{ url('/blog')}}">Blog</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="blog-details.html">Blog Details</a>
@@ -117,7 +117,7 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="{{ url('/contact')}}">Contact</a>
                   </li>
                 </ul>
               </div>
